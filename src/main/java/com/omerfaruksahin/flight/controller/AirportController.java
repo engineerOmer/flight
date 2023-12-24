@@ -1,4 +1,4 @@
-package com.omerfaruksahin.flight.rest;
+package com.omerfaruksahin.flight.controller;
 
 import com.omerfaruksahin.flight.model.AirportDTO;
 import com.omerfaruksahin.flight.service.AirportService;
@@ -22,7 +22,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RequiredArgsConstructor
 @RestController
 @RequestMapping(value = "/api/airports")
-public class AirportResource {
+public class AirportController {
 
     private final AirportService airportService;
 

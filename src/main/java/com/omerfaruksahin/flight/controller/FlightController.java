@@ -1,4 +1,4 @@
-package com.omerfaruksahin.flight.rest;
+package com.omerfaruksahin.flight.controller;
 
 import com.omerfaruksahin.flight.model.FlightDTO;
 import com.omerfaruksahin.flight.service.FlightService;
@@ -23,7 +23,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RequiredArgsConstructor
 @RestController
 @RequestMapping(value = "/api/flights", produces = MediaType.APPLICATION_JSON_VALUE)
-public class FlightResource {
+public class FlightController {
 
     private final FlightService flightService;
 
